@@ -1,0 +1,266 @@
+body{
+    background: linear-gradient(to bottom, #7F00FF, #E100FF);
+    width: auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.retangulo{
+    width: 375px;
+    height: 560px;
+    background-color: white;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+    margin-bottom: 50px;
+    position: relative;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 10px 10px 10px 0 #686071;
+}
+
+.perfl {
+    display: flex;
+    align-items: center;
+}
+
+.foto-perfil {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.nome {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.email {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #686071;
+    margin-top: 4px; 
+}
+
+.linha{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.conta-titulo{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #797085;
+}
+
+.img-dados-pessoais{
+    width: 18px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.dados {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.seta-dados{
+    width: 16px;
+    margin-left: 150px;
+}
+  
+.img-informacoes-de-login{
+    display: inline-block;
+    width: 20px;
+}
+
+.informacoes-de-login{
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.seta-login{
+    width: 16px;
+    margin-left: 110px;
+}
+
+.referencias{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #797085;
+}
+
+.sino{
+    width: 20px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.notificacao{
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.seta-notificacao{
+    width: 16px;
+    margin-left: 172px;
+}
+
+.homenzinho{
+    width: 20px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.acessibilidade{
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.seta-acessibilidade{
+    width: 16px;
+    margin-left: 160px;
+}
+
+.privacidade-titulo{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #797085;
+}
+
+.aparelhos{
+    width: 20px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.aparelhos-conectados{
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.seta-aparelhos{
+    width: 16px;
+    margin-left: 95px;
+}
+
+.homenzinho-com-seta{
+    width: 20px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.contas-vinculadas{
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.seta-contas{
+    width: 16px;
+    margin-left: 125px;
+}
+
+.linha-final{
+    margin-top: 24px;
+    margin-bottom: 1px;
+}
+
+.interrogacao{
+    width: 20px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.ajuda{
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.img-sair{
+    width: 20px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.sair{
+    display: inline-block;
+    margin-left: 8px;
+    color: #AA2222;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #E100FF;
+    padding: 40px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.linkedin-button {
+    background-color: #0077B5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    float: left;
+  }
+  
+  .github-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    float: left;
+  }
+  
+  .linkedin-button img,
+  .github-button img {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  .linkedin-button span,
+  .github-button span {
+    vertical-align: middle;
+  }
+  
