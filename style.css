@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(to bottom, #7F00FF, #E100FF);
     width: auto;
+    height: 100vh;
 }
 .container {
     display: flex;
@@ -229,7 +230,7 @@ body{
 footer {
     margin-top: 50px;
     text-align: center;
-    background-color: #E100FF;
+    background-color: transparent;
     padding: 40px 0;
     position: relative;
     z-index: 0;
